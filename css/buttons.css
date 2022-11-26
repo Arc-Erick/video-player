@@ -1,0 +1,25 @@
+.button{
+    inline-size: 40px;
+    block-size: 40px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.button:active{
+    transform: scale(.9);
+}
+
+#play{
+    background-image: url(../icons/icons8-circled_play\ 1.svg);
+}
+#pause{
+    background-image: url(../icons/icons8-pause_button\ 1.svg);
+}
+#backward{
+    background-image: url(../icons/icons8-resetback.svg);
+}
+#forward{
+    background-image: url(../icons/icons8-resetnext.svg);
+}
